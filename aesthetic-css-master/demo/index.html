@@ -1,0 +1,181 @@
+<!doctype html>
+<html amp>
+  <head>
+      <!-- The charset definition must be the first child of the `<head>` tag. -->
+      <meta charset="utf-8">
+
+      <!-- The AMP runtime must be loaded as the second child of the `<head>` tag.-->
+      <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+      <!--
+        AMP HTML files require a canonical link pointing to the regular HTML. If no HTML version exists, it should point to itself.
+      -->
+      <link rel="canonical" href="<%host%>">
+      <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+      <title>A E S T H E T I C</title>
+      <link rel="icon" type="image/png"
+        href="./images/fireEmoji.png">
+
+      <!--
+        CSS must be embedded inline, Using mustache to replace the vaporcss
+      -->
+      <style amp-custom>
+        {{{vaporCss}}}
+
+        .boot-animation {
+          {{{bootAnimation}}}
+        }
+
+        {{{highlightJsCss}}}
+
+        {{{demoCss}}}
+      </style>
+
+      <!-- Livereload script for development -->
+      {{{liveReload}}}
+
+      <!--
+        The AMP boilerplate.
+      -->
+      <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  </head>
+
+  <body class="aesthetic-bg-gradient aesthetic-font">
+
+    <!-- Boot Animation on reload -->
+    <div class="boot-animation">
+      <!-- Giphy Link: https://giphy.com/gifs/loop-vaporwave-net-art-xT9IgwvIzQOUIeVxAI -->
+      <amp-video alt="Vapor Loading"
+      src="https://media.giphy.com/media/xT9IgwvIzQOUIeVxAI/giphy.mp4"
+      width="300"
+      height="200"
+      layout="fixed"
+      autoplay
+      loop>
+    </amp-video>
+
+      <h1><i>A E S T H E T I C</i></h1>
+
+      <div class="aesthetic-windows-xp-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <h3>Initializing start-up sequence...</h3>
+    </div>
+
+    <div class="container aesthetic-windows-95-container">
+      <div class="header">
+        <h1>A E S T H E T I C</h1>
+      </div>
+
+      <div class="aesthetic-windows-95-modal">
+
+        <!-- Title Bar -->
+        <div class="aesthetic-windows-95-modal-title-bar">
+          <div class="aesthetic-windows-95-modal-title-bar-text">
+            description.txt
+          </div>
+
+          <div class="aesthetic-windows-95-modal-title-bar-controls">
+            <div class="aesthetic-windows-95-button-title-bar">
+              <button>
+                X
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="aesthetic-windows-95-modal-content">
+          
+          <hr />
+
+          <div class="aesthetic-windows-95-container-indent">
+            <p><i>A vaporwave CSS framework.</i></p>
+            <a href="https://github.com/torch2424/aesthetic" target="_blank">Fork me on <i>G I T H U B</i></a>
+          </div>
+
+        </div>
+      </div>
+
+
+      <h1>Table of Contents</h1>
+      <ul class="table-of-contents">
+        {{{tableOfContents}}}
+      </ul>
+
+      <h1>Elements</h1>
+      <div>
+
+        {{{elementsButton}}}
+        
+        {{{elementsCheckbox}}}
+
+        {{{elementsContainer}}}
+
+        <div class="dropdown-wrapper">
+          {{{elementsDropdown}}}
+        </div>
+        
+        {{{elementsLoader}}}
+        
+        <!-- https://giphy.com/gifs/zsmE8wKNUDsc0/media -->
+        <!-- https://giphy.com/gifs/piece-screens-startup-edl5t7nDVPtC/media -->
+        {{{elementsModal}}}
+        
+        {{{elementsNotification}}}
+        
+        {{{elementsRadio}}}
+
+        {{{elementsSelect}}}
+
+        {{{elementsTabs}}}
+
+        <div class="taskbar-wrapper">
+          {{{elementsTaskbar}}}
+        </div>
+        
+        {{{elementsTextInput}}}
+
+      </div>
+
+      <hr />
+
+      <h1>Effects</h1>
+      <div>
+
+        <!-- Giphy Link: https://giphy.com/gifs/bored-cowboy-bebop-gQbVzXQQbGO7C -->
+        <div class="crt-wrapper">
+          {{{effectsCrt}}}
+        </div>
+
+        {{{effectsTextGlitch}}}
+
+      </div>
+
+      <hr />
+
+      <h1>Colors</h1>
+      <p>Colors have both a font and background color class. To use the font color, use the class: "aesthetic-COLOR_NAME_HERE-color". To use the background color, use the class: "aesthetic-COLOR_NAME_HERE-bg-color"</p>
+      <div class="color-container">
+        {{{colorsColors}}}
+      </div>
+
+      <hr />
+
+      <h1>Fonts</h1>
+      {{{fontsFontModifiers}}}
+
+    </div>
+
+    <footer class="center">
+      <div>
+        <i>Created by <a href="https://aaronthedev.com" target="_blank">Aaron Turner</a> and <a href="https://github.com/echo-exe" target="_blank">Daniel Gomez</a></i>
+      </div>
+      <div>
+        <b>LICENSE: MIT</b>
+      </div>
+    </footer>
+  </body>
+</html>
