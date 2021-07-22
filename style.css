@@ -22,7 +22,7 @@
 
 .marginal-background {
   background-color: #ed65c4;
-  height: 1400px;
+  height: 100vh;
   display:block;
 }
 
@@ -121,8 +121,6 @@
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 10%;
-  max-height: 1200px;
-  min-height: 900px;
   max-width: 1200px;
   min width: 700px;
   width:100%;
