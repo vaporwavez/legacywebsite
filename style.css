@@ -175,8 +175,7 @@
     right: 0px;
   }
 
-}
-/*
+} /* code good */
 @media (max-width: 1000px) {
   #playButtons2 {
     position: static;
@@ -186,7 +185,6 @@
 
   }
 }
-*/
 #playButtons2 {
   float:right;
   height: 600px;
