@@ -30,7 +30,6 @@
   margin-left: 10px;
   background-color:  #ed65c4;
 }
-/*
 #filtered{
     opacity: 20%;
     position: fixed; /* Sit on top of the page content */
@@ -45,7 +44,6 @@
     cursor: pointer; /* Add a pointer on hover */
     pointer-events: none;
   }
-*/
 .margin {
   margin-left: 10% !important;
 }
@@ -178,7 +176,7 @@
   }
 
 }
-
+/*
 @media (max-width: 1000px) {
   #playButtons2 {
     position: static;
@@ -188,6 +186,7 @@
 
   }
 }
+*/
 #playButtons2 {
   float:right;
   height: 300px;
