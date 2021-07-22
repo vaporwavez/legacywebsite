@@ -78,7 +78,7 @@
     right: 700px;
   }
 
-}*/
+}
 .position-tabs {
   position:absolute;
   left: 300px;
@@ -99,6 +99,7 @@
   }
 
 }
+
 .link {
   text-decoration: none;
   color: black;
@@ -116,7 +117,7 @@
     width:100%;
     object-position: center;
   }
-}
+}*/
 .body {
   margin-left: 20%;
   margin-right: 20%;
