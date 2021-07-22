@@ -116,6 +116,8 @@
     min width: 500px;
     width:100%;
     object-position: center;
+    overflow-y: scroll;
+    position: relative;
   }
 }/* to here */
 .body {
