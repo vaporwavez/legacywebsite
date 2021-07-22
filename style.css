@@ -71,7 +71,8 @@
   }
 
 }
-/*@media (max-width: 438px) {
+/* good code here*/
+@media (max-width: 438px) {
   .position-tabs2 {
     width: 20px;
     position:absolute;
@@ -117,7 +118,7 @@
     width:100%;
     object-position: center;
   }
-}*/
+}/* to here */
 .body {
   margin-left: 20%;
   margin-right: 20%;
@@ -134,6 +135,7 @@
 #spacer {
   width: 1000px;
 }
+/*
 #playButtons1 {
   float:left;
   height: 300px;
@@ -176,6 +178,7 @@
   }
 
 }
+
 @media (max-width: 1000px) {
   #playButtons2 {
     position: static;
@@ -185,6 +188,7 @@
 
   }
 }
+*/
 #playButtons2 {
   float:right;
   height: 300px;
