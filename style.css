@@ -30,6 +30,7 @@
   margin-left: 10px;
   background-color:  #ed65c4;
 }
+/*
 #filtered{
     opacity: 20%;
     position: fixed; /* Sit on top of the page content */
@@ -42,9 +43,9 @@
     bottom: 0;
     background:linear-gradient(purple, yellow) ; /* Black background with opacity /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
-    pointer-events: auto;
+    pointer-events: none;
   }
-
+*/
 .margin {
   margin-left: 10% !important;
 }
