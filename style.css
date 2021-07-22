@@ -71,14 +71,14 @@
   }
 
 }
-@media (max-width: 438px) {
+/*@media (max-width: 438px) {
   .position-tabs2 {
     width: 20px;
     position:absolute;
     right: 700px;
   }
 
-}
+}*/
 .position-tabs {
   position:absolute;
   left: 300px;
