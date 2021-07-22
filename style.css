@@ -9,7 +9,7 @@
   width: 75px;
   height: 75px;
 }
-#logoRight {
+/*#logoRight {
   float: right;
   margin: 25px;
 }
@@ -17,7 +17,7 @@
 #logoLeft {
   float:left;
   margin: 25px;
-}
+}*/
 
 
 .marginal-background {
@@ -135,7 +135,6 @@
 #spacer {
   width: 1000px;
 }
-/*
 #playButtons1 {
   float:left;
   height: 300px;
@@ -188,7 +187,6 @@
 
   }
 }
-*/
 #playButtons2 {
   float:right;
   height: 300px;
